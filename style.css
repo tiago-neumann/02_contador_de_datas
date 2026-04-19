@@ -38,9 +38,9 @@ body{
     background-color: rgb(202, 230, 255);
     outline: none;
 }
-
+ 
 .conteiner_data button{
-    background-color: white;
+    background-color: white; 
     border: none;
     border-radius: 16px;
     padding: 9px 40px;

@@ -8,7 +8,7 @@ const erros = document.querySelector('.erros')
 
 const agora =  new Date();
 const dataLocal = agora.toLocaleDateString('en-CA');
-input_data.setAttribute('max', dataLocal);
+input_data.setAttribute('max', dataLocal); 
 
 function verificarErros(){
     valor_input = input_data.value

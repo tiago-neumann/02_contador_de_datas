@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Contador de datas</title>
+</head>
+<body>
+    <!--Essa estrutura sera a que deve adicionar a data-->
+    <div class="conteiner_data">
+        <h1 class="titulo">Contador de Datas</h1>
+        <p>Insira uma data</p>
+        <input type="date" id="input_data">
+        <button id="botao_enviar">Confirmar</button>
+        <p class="erros">&nbsp;</p>
+    </div>
+
+    <!--Essa estrutura vai contar o tempo que se passou da data ali emposta-->
+    <div class="conteiner_contador">
+        <button id="voltar"><i class="fa-solid fa-arrow-left"></i></button>
+        <h1 id="anos">00</h1>
+        <p>Anos</p>
+        <h1 id="meses">00</h1>
+        <p>Meses</p>
+        <h1 id="dias">00</h1>
+        <p>Dias</p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

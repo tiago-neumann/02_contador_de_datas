@@ -86,3 +86,32 @@ body{
 .conteiner_contador p{
     font-weight: bold;
 }
+
+.contato{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0px, -70px);
+    width: 100%;
+    padding: 20px 0;
+}
+
+.contato ul{
+    display: inline-flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.contato li{ 
+    transform: scale(2);
+    transition: 0.3s ease;
+}
+
+.contato li:hover{
+    transform: scale(3);
+}
+
+.contato i{
+    color: white;
+}

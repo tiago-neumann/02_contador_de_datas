@@ -1,4 +1,4 @@
-//OBS: estou comentando tudo isso, pois ainda estou aprendendo, facilitando caso eu precise revisitar o site
+//OBS: estou comentando tudo isso, pois ainda estou aprendendo, facilitando caso eu precise revisitar o site, nesse caso comecei a interagir com datas
 
 //Pega os elementos dos conteiners, pra depois ser possível meio que "mudar as páginas".
 const conteinerData = document.querySelector('.conteiner_data');

@@ -43,18 +43,6 @@ O projeto foi desenvolvido principalmente para praticar **manipulação e cálcu
 
 ---
 
-## 🖥️ Demonstração
-
-<div align="center">
-
-<img src="./assets/preview.png" alt="Preview do Contador de Datas" width="700">
-
-</div>
-
-> 💡 Para utilizar esta seção, adicione uma captura de tela do projeto em `assets/preview.png`.
-
----
-
 ## 🛠️ Tecnologias utilizadas
 
 | Tecnologia         | Utilização                          |
